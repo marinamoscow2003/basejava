@@ -17,16 +17,8 @@ public class Resume {
         return uuid;
     }
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
-
     @Override
     public String toString() {
         return uuid;
-    }
-
-    public boolean equals(Resume obj) {
-        return this.uuid.equals(obj.uuid);
     }
 }
